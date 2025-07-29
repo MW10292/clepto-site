@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Consultation Process - Clepto AI</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Discover Clepto.ai's collaborative consultation process. No pressure, no generic pitches - just genuine understanding of your AI needs." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fcleptoai9255back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background font-serif">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-subtle sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage.html" class="flex items-center">
+                        <svg class="h-8 w-8 text-primary mr-2" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <circle cx="16" cy="12" r="3" fill="white"/>
+                            <path d="M16 16l-4 4h8l-4-4z" fill="white"/>
+                        </svg>
+                        <span class="font-inter font-bold text-xl text-primary">Clepto.ai</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Home</a>
+                        <a href="consultation_process.html" class="text-primary font-inter font-medium hover:text-accent transition-smooth">Process</a>
+                        <a href="case_studies.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Case Studies</a>
+                        <a href="about_methodology.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">About</a>
+                        <a href="ai_readiness_assessment.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Assessment</a>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact_consultation_booking.html" class="btn-primary">Book Consultation</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-border">
+                    <a href="homepage.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Home</a>
+                    <a href="consultation_process.html" class="block px-3 py-2 text-primary font-inter font-medium">Process</a>
+                    <a href="case_studies.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Case Studies</a>
+                    <a href="about_methodology.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">About</a>
+                    <a href="ai_readiness_assessment.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Assessment</a>
+                    <a href="contact_consultation_booking.html" class="block px-3 py-2 btn-primary text-center mt-4">Book Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 overflow-hidden">
+        <div class="absolute inset-0 bg-white opacity-50"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="text-center lg:text-left">
+                    <h1 class="font-inter font-bold text-4xl lg:text-6xl text-primary mb-6 leading-tight">
+                        Our <span class="text-gradient">consultation</span> process
+                    </h1>
+                    <p class="text-xl text-text-secondary mb-8 leading-relaxed">
+                        No pressure, no generic pitches - just genuine understanding of your business needs and challenges.
+                    </p>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="flex flex-wrap justify-center lg:justify-start items-center gap-6 text-sm text-text-muted mb-8">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            No obligation
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            NDA guaranteed
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Certified consultants
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="contact_consultation_booking.html" class="btn-primary text-lg px-8 py-4">
+                            Start Your AI Journey
+                        </a>
+                        <a href="case_studies.html" class="btn-secondary text-lg px-8 py-4">
+                            See Success Stories
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Calendar Widget -->
+                <div class="relative">
+                    <div class="bg-white rounded-2xl shadow-elevated p-6">
+                        <div class="text-center mb-6">
+                            <h3 class="font-inter font-semibold text-xl text-primary mb-2">Book Your Discovery Call</h3>
+                            <p class="text-text-secondary">30 minutes • Completely free • No sales pressure</p>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <button class="w-full text-left p-4 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="font-inter font-medium text-primary">Today, Jul 29</div>
+                                        <div class="text-sm text-text-muted">2:00 PM - 2:30 PM EST</div>
+                                    </div>
+                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </div>
+                            </button>
+                            <button class="w-full text-left p-4 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="font-inter font-medium text-primary">Tomorrow, Jul 30</div>
+                                        <div class="text-sm text-text-muted">10:00 AM - 10:30 AM EST</div>
+                                    </div>
+                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </div>
+                            </button>
+                            <button class="w-full text-left p-4 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="font-inter font-medium text-primary">Aug 1, 2025</div>
+                                        <div class="text-sm text-text-muted">3:00 PM - 3:30 PM EST</div>
+                                    </div>
+                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                        
+                        <div class="mt-6 text-center">
+                            <a href="contact_consultation_booking.html" class="text-accent font-inter font-medium hover:text-accent-500 transition-smooth">
+                                View all available times →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Overview -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    Five phases to your custom AI solution
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Our proven methodology ensures we understand your business before building anything
+                </p>
+            </div>
+
+            <!-- Interactive Timeline -->
+            <div class="relative">
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-accent-200"></div>
+                
+                <div class="space-y-16">
+                    <!-- Phase 1: Discovery Call -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 text-right pr-8">
+                            <div class="card-elevated max-w-lg ml-auto">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="font-inter font-semibold text-2xl text-primary">1. Discovery Call</h3>
+                                    <span class="bg-success-50 text-success-600 px-3 py-1 rounded-full text-sm font-inter font-medium">Free • 30 min</span>
+                                </div>
+                                <p class="text-text-secondary mb-4">
+                                    We listen to your challenges, goals, and current processes. No sales pitch - just genuine curiosity about your business.
+                                </p>
+                                <div class="space-y-2">
+                                    <h4 class="font-inter font-medium text-primary">What you'll get:</h4>
+                                    <ul class="space-y-1 text-sm text-text-secondary">
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Honest assessment of AI potential
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Initial recommendations
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Next steps (if we're a good fit)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-accent rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 pl-8">
+                            <!-- Testimonial -->
+                            <div class="bg-accent-50 rounded-lg p-4 max-w-md">
+                                <p class="text-sm text-text-secondary italic mb-2">
+                                    "Finally, someone who asked about our business first, not what AI tools we wanted."
+                                </p>
+                                <p class="text-xs font-inter font-medium text-primary">- Sarah Chen, TechParts Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phase 2: Business Analysis -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8">
+                            <!-- Testimonial -->
+                            <div class="bg-secondary-50 rounded-lg p-4 max-w-md ml-auto">
+                                <p class="text-sm text-text-secondary italic mb-2">
+                                    "They understood our manufacturing process better than some of our own consultants."
+                                </p>
+                                <p class="text-xs font-inter font-medium text-primary">- Marcus Rodriguez, Swift Logistics</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 text-left pl-8">
+                            <div class="card-elevated max-w-lg">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="font-inter font-semibold text-2xl text-primary">2. Business Analysis</h3>
+                                    <span class="bg-primary-50 text-primary px-3 py-1 rounded-full text-sm font-inter font-medium">1-2 weeks</span>
+                                </div>
+                                <p class="text-text-secondary mb-4">
+                                    Deep dive into your business model, current processes, pain points, and success metrics to identify the best AI opportunities.
+                                </p>
+                                <div class="space-y-2">
+                                    <h4 class="font-inter font-medium text-primary">Deliverables:</h4>
+                                    <ul class="space-y-1 text-sm text-text-secondary">
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Process mapping document
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            AI opportunity assessment
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            ROI projections
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phase 3: Solution Design -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 text-right pr-8">
+                            <div class="card-elevated max-w-lg ml-auto">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="font-inter font-semibold text-2xl text-primary">3. Solution Design</h3>
+                                    <span class="bg-accent-50 text-accent px-3 py-1 rounded-full text-sm font-inter font-medium">2-3 weeks</span>
+                                </div>
+                                <p class="text-text-secondary mb-4">
+                                    Collaborative planning session where we design your custom AI solution together, ensuring it fits perfectly with your workflow.
+                                </p>
+                                <div class="space-y-2">
+                                    <h4 class="font-inter font-medium text-primary">You'll receive:</h4>
+                                    <ul class="space-y-1 text-sm text-text-secondary">
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Technical architecture blueprint
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            User interface mockups
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Integration specifications
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 pl-8">
+                            <!-- Testimonial -->
+                            <div class="bg-primary-50 rounded-lg p-4 max-w-md">
+                                <p class="text-sm text-text-secondary italic mb-2">
+                                    "They showed us exactly how it would work before building anything. No surprises."
+                                </p>
+                                <p class="text-xs font-inter font-medium text-primary">- Jennifer Liu, DataFlow Systems</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phase 4: Implementation Roadmap -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8">
+                            <!-- Testimonial -->
+                            <div class="bg-success-50 rounded-lg p-4 max-w-md ml-auto">
+                                <p class="text-sm text-text-secondary italic mb-2">
+                                    "Clear milestones and realistic timelines. We knew exactly what to expect."
+                                </p>
+                                <p class="text-xs font-inter font-medium text-primary">- David Park, GreenTech Solutions</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-success rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 text-left pl-8">
+                            <div class="card-elevated max-w-lg">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="font-inter font-semibold text-2xl text-primary">4. Implementation</h3>
+                                    <span class="bg-success-50 text-success-600 px-3 py-1 rounded-full text-sm font-inter font-medium">4-12 weeks</span>
+                                </div>
+                                <p class="text-text-secondary mb-4">
+                                    Seamless integration with your existing systems. We handle the technical complexity while keeping you informed every step.
+                                </p>
+                                <div class="space-y-2">
+                                    <h4 class="font-inter font-medium text-primary">What happens:</h4>
+                                    <ul class="space-y-1 text-sm text-text-secondary">
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Weekly progress updates
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Testing and refinement
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Team training and handoff
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phase 5: Ongoing Partnership -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 text-right pr-8">
+                            <div class="card-elevated max-w-lg ml-auto">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="font-inter font-semibold text-2xl text-primary">5. Partnership</h3>
+                                    <span class="bg-accent-50 text-accent px-3 py-1 rounded-full text-sm font-inter font-medium">Ongoing</span>
+                                </div>
+                                <p class="text-text-secondary mb-4">
+                                    Continuous support, optimization, and evolution as your business grows. We're partners, not just vendors.
+                                </p>
+                                <div class="space-y-2">
+                                    <h4 class="font-inter font-medium text-primary">Ongoing support:</h4>
+                                    <ul class="space-y-1 text-sm text-text-secondary">
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Performance monitoring
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Feature enhancements
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Strategic guidance
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-accent-500 rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 pl-8">
+                            <!-- Testimonial -->
+                            <div class="bg-accent-50 rounded-lg p-4 max-w-md">
+                                <p class="text-sm text-text-secondary italic mb-2">
+                                    "Six months later, they're still helping us optimize. True partners."
+                                </p>
+                                <p class="text-xs font-inter font-medium text-primary">- Rachel Kim, InnovateCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What to Prepare Section -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    How to prepare for your discovery call
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    A few minutes of preparation will make our conversation much more valuable
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Preparation Checklist -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-6">Before our call, think about:</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center mr-3 mt-0.5">
+                                <span class="text-white text-sm font-inter font-bold">1</span>
+                            </div>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Your biggest operational pain points</h4>
+                                <p class="text-sm text-text-secondary">What takes too much time? What's error-prone? What frustrates your team?</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center mr-3 mt-0.5">
+                                <span class="text-white text-sm font-inter font-bold">2</span>
+                            </div>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Current tools and systems</h4>
+                                <p class="text-sm text-text-secondary">What software do you use? What works well? What doesn't?</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center mr-3 mt-0.5">
+                                <span class="text-white text-sm font-inter font-bold">3</span>
+                            </div>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Success metrics</h4>
+                                <p class="text-sm text-text-secondary">How do you measure success? What would improvement look like?</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center mr-3 mt-0.5">
+                                <span class="text-white text-sm font-inter font-bold">4</span>
+                            </div>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Budget and timeline expectations</h4>
+                                <p class="text-sm text-text-secondary">Rough budget range and when you'd like to see results</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- What We'll Cover -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-6">What we'll cover together:</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-success mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Your business context</h4>
+                                <p class="text-sm text-text-secondary">Industry, size, growth stage, and unique challenges</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-success mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">AI opportunity assessment</h4>
+                                <p class="text-sm text-text-secondary">Where AI could make the biggest impact in your business</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-success mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Honest recommendations</h4>
+                                <p class="text-sm text-text-secondary">Whether AI is right for you, and if so, what approach makes sense</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-success mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-inter font-medium text-primary mb-1">Next steps</h4>
+                                <p class="text-sm text-text-secondary">Clear action items, whether we work together or not</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    Common questions about our process
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    We believe in transparency from the very first conversation
+                </p>
+            </div>
+
+            <div class="space-y-8">
+                <!-- FAQ Item 1 -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-3">
+                        What if you can't help us?
+                    </h3>
+                    <p class="text-text-secondary">
+                        We'll tell you honestly. Not every business needs AI, and not every AI project makes sense. If we're not the right fit, we'll explain why and point you toward better alternatives. Our reputation is built on honesty, not closing every deal.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-3">
+                        How do you ensure our data stays secure?
+                    </h3>
+                    <p class="text-text-secondary">
+                        Data security is non-negotiable. We sign NDAs before any detailed discussions, use encrypted communication channels, and follow enterprise-grade security protocols. Your data never leaves your systems during the consultation phase, and we're happy to work within your existing security frameworks.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-3">
+                        What makes your approach different?
+                    </h3>
+                    <p class="text-text-secondary">
+                        Most AI companies start with their technology and try to fit your business around it. We start with your business and build technology around that. We're not trying to sell you a pre-built solution - we're trying to understand your unique challenges and create something that actually solves them.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-3">
+                        How much does the consultation cost?
+                    </h3>
+                    <p class="text-text-secondary">
+                        The initial discovery call is completely free. If we move forward with a business analysis, we'll discuss pricing transparently based on the scope of work. We believe in earning your trust through value, not through high-pressure sales tactics.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="card-elevated">
+                    <h3 class="font-inter font-semibold text-xl text-primary mb-3">
+                        What if we're not ready to implement AI yet?
+                    </h3>
+                    <p class="text-text-secondary">
+                        That's perfectly fine. Sometimes the best advice is to wait. We'll help you understand when the timing might be better and what to focus on in the meantime. Building a relationship is more important to us than making a quick sale.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                Ready to start the conversation?
+            </h2>
+            <p class="text-xl text-text-secondary mb-12 max-w-2xl mx-auto">
+                Book your free discovery call today. No obligation, no pressure - just an honest conversation about your AI potential.
+            </p>
+
+            <!-- Multiple CTA Options -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <a href="contact_consultation_booking.html" class="btn-primary text-lg px-8 py-4">
+                    Book Discovery Call
+                </a>
+                <a href="ai_readiness_assessment.html" class="btn-secondary text-lg px-8 py-4">
+                    Take AI Assessment First
+                </a>
+            </div>
+
+            <!-- Trust Signals -->
+            <div class="flex flex-wrap justify-center items-center gap-8 text-sm text-text-muted">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    30-minute call
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    Completely free
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    No sales pressure
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <svg class="h-8 w-8 text-secondary mr-2" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <circle cx="16" cy="12" r="3" fill="white"/>
+                            <path d="M16 16l-4 4h8l-4-4z" fill="white"/>
+                        </svg>
+                        <span class="font-inter font-bold text-xl">Clepto.ai</span>
+                    </div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        The AI consultancy that listens first. We build custom solutions that adapt to your business, not the other way around.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="consultation_process.html" class="text-primary-200 hover:text-white transition-smooth">Our Process</a></li>
+                        <li><a href="case_studies.html" class="text-primary-200 hover:text-white transition-smooth">Case Studies</a></li>
+                        <li><a href="about_methodology.html" class="text-primary-200 hover:text-white transition-smooth">About Us</a></li>
+                        <li><a href="ai_readiness_assessment.html" class="text-primary-200 hover:text-white transition-smooth">AI Assessment</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Get Started</h3>
+                    <ul class="space-y-2">
+                        <li><a href="contact_consultation_booking.html" class="text-primary-200 hover:text-white transition-smooth">Book Consultation</a></li>
+                        <li><a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">hello@clepto.ai</a></li>
+                        <li><a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">1-800-CLEPTO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-12 pt-8 text-center">
+                <p class="text-primary-200">© 2025 Clepto.ai. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

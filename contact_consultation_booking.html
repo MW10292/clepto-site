@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Free Consultation - Clepto AI</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Schedule your free AI consultation with Clepto.ai. No sales pressure, just honest conversation about your business needs. Multiple booking options available." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fcleptoai9255back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background font-serif">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-subtle sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage.html" class="flex items-center">
+                        <svg class="h-8 w-8 text-primary mr-2" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <circle cx="16" cy="12" r="3" fill="white"/>
+                            <path d="M16 16l-4 4h8l-4-4z" fill="white"/>
+                        </svg>
+                        <span class="font-inter font-bold text-xl text-primary">Clepto.ai</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Home</a>
+                        <a href="consultation_process.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Process</a>
+                        <a href="case_studies.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Case Studies</a>
+                        <a href="about_methodology.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">About</a>
+                        <a href="ai_readiness_assessment.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Assessment</a>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact_consultation_booking.html" class="btn-primary">Book Consultation</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-border">
+                    <a href="homepage.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Home</a>
+                    <a href="consultation_process.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Process</a>
+                    <a href="case_studies.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Case Studies</a>
+                    <a href="about_methodology.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">About</a>
+                    <a href="ai_readiness_assessment.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Assessment</a>
+                    <a href="contact_consultation_booking.html" class="block px-3 py-2 text-primary font-inter font-medium">Book Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="font-inter font-bold text-4xl lg:text-5xl text-primary mb-6">
+                    Let's have an honest conversation about your <span class="text-gradient">AI needs</span>
+                </h1>
+                <p class="text-xl text-text-secondary mb-8 max-w-3xl mx-auto">
+                    No sales pitch. No generic demos. Just a genuine discussion about your business challenges and how AI might help solve them.
+                </p>
+                
+                <!-- Trust Indicators -->
+                <div class="flex flex-wrap justify-center items-center gap-6 text-sm text-text-muted mb-8">
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        100% Free consultation
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        No obligation
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        Response within 2 hours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Calendar Booking Section -->
+                <div>
+                    <div class="card-elevated">
+                        <div class="text-center mb-8">
+                            <div class="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <h2 class="font-inter font-bold text-2xl text-primary mb-2">Schedule Your Free Consultation</h2>
+                            <p class="text-text-secondary">Choose the session type that works best for you</p>
+                        </div>
+
+                        <!-- Session Type Selection -->
+                        <div class="grid md:grid-cols-2 gap-4 mb-8">
+                            <div class="border border-border rounded-lg p-4 hover:border-accent transition-smooth cursor-pointer" onclick="selectSessionType('discovery')">
+                                <div class="flex items-center mb-2">
+                                    <input type="radio" name="sessionType" value="discovery" class="text-accent mr-3" />
+                                    <h3 class="font-inter font-semibold text-primary">Discovery Call</h3>
+                                </div>
+                                <p class="text-sm text-text-secondary mb-2">30 minutes</p>
+                                <p class="text-sm text-text-muted">Perfect for initial exploration and understanding your needs</p>
+                            </div>
+                            <div class="border border-border rounded-lg p-4 hover:border-accent transition-smooth cursor-pointer" onclick="selectSessionType('deep-dive')">
+                                <div class="flex items-center mb-2">
+                                    <input type="radio" name="sessionType" value="deep-dive" class="text-accent mr-3" />
+                                    <h3 class="font-inter font-semibold text-primary">Deep-Dive Session</h3>
+                                </div>
+                                <p class="text-sm text-text-secondary mb-2">60 minutes</p>
+                                <p class="text-sm text-text-muted">Comprehensive analysis with preliminary recommendations</p>
+                            </div>
+                        </div>
+
+                        <!-- Available Time Slots -->
+                        <div class="mb-8">
+                            <h3 class="font-inter font-semibold text-lg text-primary mb-4">Available Time Slots</h3>
+                            <div class="grid gap-3">
+                                <!-- Today -->
+                                <div class="border-l-4 border-accent pl-4">
+                                    <h4 class="font-inter font-medium text-primary mb-2">Today, July 29, 2025</h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('today-2pm')">
+                                            <div class="font-inter font-medium text-primary">2:00 PM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('today-4pm')">
+                                            <div class="font-inter font-medium text-primary">4:00 PM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Tomorrow -->
+                                <div class="border-l-4 border-secondary pl-4">
+                                    <h4 class="font-inter font-medium text-primary mb-2">Tomorrow, July 30, 2025</h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('tomorrow-10am')">
+                                            <div class="font-inter font-medium text-primary">10:00 AM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('tomorrow-1pm')">
+                                            <div class="font-inter font-medium text-primary">1:00 PM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('tomorrow-3pm')">
+                                            <div class="font-inter font-medium text-primary">3:00 PM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Next Week -->
+                                <div class="border-l-4 border-primary pl-4">
+                                    <h4 class="font-inter font-medium text-primary mb-2">August 1, 2025</h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('aug1-9am')">
+                                            <div class="font-inter font-medium text-primary">9:00 AM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                        <button class="text-left p-3 border border-border rounded-lg hover:border-accent hover:bg-accent-50 transition-smooth" onclick="selectTimeSlot('aug1-2pm')">
+                                            <div class="font-inter font-medium text-primary">2:00 PM EST</div>
+                                            <div class="text-sm text-text-muted">Available</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pre-Call Questionnaire -->
+                        <div class="bg-primary-50 rounded-lg p-6 mb-6">
+                            <h3 class="font-inter font-semibold text-lg text-primary mb-4">Quick Pre-Call Information</h3>
+                            <form class="space-y-4">
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-sm font-inter font-medium text-primary mb-2">First Name *</label>
+                                        <input type="text" class="input-field" placeholder="John" required />
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-inter font-medium text-primary mb-2">Last Name *</label>
+                                        <input type="text" class="input-field" placeholder="Smith" required />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Email Address *</label>
+                                    <input type="email" class="input-field" placeholder="john@company.com" required />
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Phone Number *</label>
+                                    <input type="tel" class="input-field" placeholder="+1 (555) 123-4567" required />
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Company Name</label>
+                                    <input type="text" class="input-field" placeholder="Your Company Inc." />
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Company Size</label>
+                                    <select class="input-field">
+                                        <option value>Select company size</option>
+                                        <option value="1-10">1-10 employees</option>
+                                        <option value="11-50">11-50 employees</option>
+                                        <option value="51-200">51-200 employees</option>
+                                        <option value="200+">200+ employees</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Primary Challenge</label>
+                                    <textarea class="input-field h-24" placeholder="Briefly describe your main business challenge or what you hope AI might help with..."></textarea>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Book Button -->
+                        <button class="w-full btn-primary text-lg py-4" onclick="bookConsultation()">
+                            Confirm Your Free Consultation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Alternative Contact Methods -->
+                <div class="space-y-8">
+                    <!-- Direct Contact -->
+                    <div class="card-elevated">
+                        <div class="text-center mb-6">
+                            <div class="w-16 h-16 bg-secondary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <h2 class="font-inter font-bold text-xl text-primary mb-2">Prefer to Call?</h2>
+                            <p class="text-text-secondary mb-4">Speak directly with our consultation team</p>
+                        </div>
+
+                        <div class="text-center space-y-4">
+                            <div>
+                                <a href="tel:+18002537866" class="font-inter font-bold text-2xl text-primary hover:text-accent transition-smooth">
+                                    1-800-CLEPTO (253-7866)
+                                </a>
+                            </div>
+                            <div class="text-text-secondary">
+                                <p class="font-inter font-medium">Business Hours:</p>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+                                <p>Saturday: 10:00 AM - 2:00 PM EST</p>
+                            </div>
+                            <div class="bg-success-50 rounded-lg p-4">
+                                <p class="text-sm text-success-600 font-inter font-medium">
+                                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Average wait time: Less than 2 minutes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email Contact -->
+                    <div class="card">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-accent-50 rounded-full flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="font-inter font-semibold text-lg text-primary mb-2">Email Us</h3>
+                                <p class="text-text-secondary mb-3">Send us your questions or consultation request</p>
+                                <a href="mailto:hello@clepto.ai" class="font-inter font-medium text-accent hover:text-accent-500 transition-smooth">
+                                    hello@clepto.ai
+                                </a>
+                                <p class="text-sm text-text-muted mt-2">Expected response time: Within 2 hours during business hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Live Chat -->
+                    <div class="card">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-success-50 rounded-full flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="font-inter font-semibold text-lg text-primary mb-2">Live Chat</h3>
+                                <p class="text-text-secondary mb-3">Get immediate answers to your questions</p>
+                                <button class="btn-secondary" onclick="openLiveChat()">
+                                    Start Chat Now
+                                </button>
+                                <div class="flex items-center mt-2">
+                                    <div class="w-2 h-2 bg-success rounded-full mr-2"></div>
+                                    <span class="text-sm text-success-600 font-inter font-medium">Online now</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- General Contact Form -->
+                    <div class="card-elevated">
+                        <h3 class="font-inter font-bold text-xl text-primary mb-6">Send Us a Message</h3>
+                        <form class="space-y-4">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Name *</label>
+                                    <input type="text" class="input-field" placeholder="Your full name" required />
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-inter font-medium text-primary mb-2">Email *</label>
+                                    <input type="email" class="input-field" placeholder="your@email.com" required />
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-inter font-medium text-primary mb-2">Inquiry Type</label>
+                                <select class="input-field">
+                                    <option value>Select inquiry type</option>
+                                    <option value="consultation">Consultation Request</option>
+                                    <option value="general">General Questions</option>
+                                    <option value="partnership">Partnership Opportunities</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="media">Media Inquiry</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-inter font-medium text-primary mb-2">Message *</label>
+                                <textarea class="input-field h-32" placeholder="Tell us about your business needs or questions..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team & Office Section -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    Meet the team you'll be working with
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Real people who understand business challenges
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <!-- Team Member 1 -->
+                <div class="card text-center">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Michael Chen - Lead AI Consultant" class="w-24 h-24 rounded-full object-cover mx-auto mb-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    <h3 class="font-inter font-semibold text-lg text-primary mb-2">Michael Chen</h3>
+                    <p class="text-text-secondary mb-3">Lead AI Consultant</p>
+                    <p class="text-sm text-text-muted">15+ years in business automation. Former McKinsey consultant.</p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="card text-center">
+                    <img src="https://images.pixabay.com/photo/2017/06/26/02/47/man-2442565_1280.jpg" alt="Sarah Rodriguez - Implementation Specialist" class="w-24 h-24 rounded-full object-cover mx-auto mb-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    <h3 class="font-inter font-semibold text-lg text-primary mb-2">Sarah Rodriguez</h3>
+                    <p class="text-text-secondary mb-3">Implementation Specialist</p>
+                    <p class="text-sm text-text-muted">Expert in seamless AI integration. Former CTO at tech startup.</p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="card text-center">
+                    <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="David Park - Business Analyst" class="w-24 h-24 rounded-full object-cover mx-auto mb-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    <h3 class="font-inter font-semibold text-lg text-primary mb-2">David Park</h3>
+                    <p class="text-text-secondary mb-3">Business Analyst</p>
+                    <p class="text-sm text-text-muted">ROI optimization specialist. MBA from Wharton.</p>
+                </div>
+            </div>
+
+            <!-- Office Location -->
+            <div class="card-elevated max-w-2xl mx-auto text-center">
+                <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                </div>
+                <h3 class="font-inter font-bold text-xl text-primary mb-4">Our Office</h3>
+                <div class="text-text-secondary space-y-2">
+                    <p class="font-inter font-medium">Clepto.ai Headquarters</p>
+                    <p>123 Innovation Drive, Suite 400</p>
+                    <p>San Francisco, CA 94105</p>
+                    <p class="text-sm text-text-muted mt-4">
+                        Available for in-person consultations by appointment
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    What clients say about our consultations
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Real feedback from real business owners
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-elevated">
+                    <div class="flex items-start space-x-4">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Jennifer Walsh" class="w-16 h-16 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div class="flex-1">
+                            <div class="flex items-center mb-2">
+                                <div class="flex text-secondary">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-text-secondary mb-4 italic">
+                                "Best discovery call I've ever had. They understood our manufacturing challenges immediately and asked questions I hadn't even thought of. No pressure, just genuine interest in helping."
+                            </p>
+                            <div>
+                                <p class="font-inter font-semibold text-primary">Jennifer Walsh</p>
+                                <p class="text-sm text-text-muted">Operations Director, Precision Manufacturing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-elevated">
+                    <div class="flex items-start space-x-4">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Robert Kim" class="w-16 h-16 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                        <div class="flex-1">
+                            <div class="flex items-center mb-2">
+                                <div class="flex text-secondary">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-text-secondary mb-4 italic">
+                                "I was dreading another sales call, but this was completely different. They spent 45 minutes just understanding our business model. I actually learned things about my own operations!"
+                            </p>
+                            <div>
+                                <p class="font-inter font-semibold text-primary">Robert Kim</p>
+                                <p class="text-sm text-text-muted">CEO, Urban Logistics Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    Pre-consultation questions
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Everything you need to know before we talk
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="card-elevated">
+                    <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq1')">
+                        <h3 class="font-inter font-semibold text-lg text-primary">What should I prepare for the consultation?</h3>
+                        <svg id="faq1-icon" class="w-6 h-6 text-accent transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq1-content" class="hidden mt-4 text-text-secondary">
+                        <p>Just bring your business challenges and an open mind. We'll guide the conversation. If you have specific pain points, current processes you'd like to improve, or goals you're trying to achieve, those are helpful to discuss. No technical preparation needed.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="card-elevated">
+                    <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq2')">
+                        <h3 class="font-inter font-semibold text-lg text-primary">Is there any obligation after the consultation?</h3>
+                        <svg id="faq2-icon" class="w-6 h-6 text-accent transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq2-content" class="hidden mt-4 text-text-secondary">
+                        <p>Absolutely none. Our consultation is genuinely free with no strings attached. We believe in earning your trust through value, not pressure. If we're not the right fit, we'll tell you honestly and may even recommend other solutions.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="card-elevated">
+                    <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq3')">
+                        <h3 class="font-inter font-semibold text-lg text-primary">What's the difference between the 30 and 60-minute sessions?</h3>
+                        <svg id="faq3-icon" class="w-6 h-6 text-accent transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq3-content" class="hidden mt-4 text-text-secondary">
+                        <p>The 30-minute discovery call is perfect for initial exploration and understanding your needs. The 60-minute deep-dive session allows for more comprehensive analysis and preliminary recommendations. Choose based on your time availability and how detailed you want the initial discussion.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="card-elevated">
+                    <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq4')">
+                        <h3 class="font-inter font-semibold text-lg text-primary">Do you work with companies of all sizes?</h3>
+                        <svg id="faq4-icon" class="w-6 h-6 text-accent transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq4-content" class="hidden mt-4 text-text-secondary">
+                        <p>We specialize in SMEs and MSMEs (20-200 employees) but work with businesses of various sizes. Our sweet spot is companies that need custom solutions but don't have massive enterprise budgets. During the consultation, we'll determine if we're a good fit.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="card-elevated">
+                    <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq5')">
+                        <h3 class="font-inter font-semibold text-lg text-primary">What if I'm not sure AI is right for my business?</h3>
+                        <svg id="faq5-icon" class="w-6 h-6 text-accent transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq5-content" class="hidden mt-4 text-text-secondary">
+                        <p>Perfect! That's exactly why we offer free consultations. We'll help you understand whether AI makes sense for your specific situation. Sometimes the answer is "not yet" or "not this way," and we'll be honest about that. Our goal is to help you make the right decision, not sell you something you don't need.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="py-12 bg-error-50 border-t-4 border-error">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center mb-4">
+                <svg class="w-8 h-8 text-error mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/>
+                </svg>
+                <h3 class="font-inter font-bold text-xl text-error">Urgent AI Implementation Need?</h3>
+            </div>
+            <p class="text-text-secondary mb-6">
+                If you have an urgent business situation that requires immediate AI consultation, contact our emergency line.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:+18002537866" class="btn-primary bg-error hover:bg-error-600">
+                    Call Emergency Line: 1-800-CLEPTO
+                </a>
+                <span class="text-sm text-text-muted">Available 24/7 for critical business needs</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <svg class="h-8 w-8 text-secondary mr-2" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <circle cx="16" cy="12" r="3" fill="white"/>
+                            <path d="M16 16l-4 4h8l-4-4z" fill="white"/>
+                        </svg>
+                        <span class="font-inter font-bold text-xl">Clepto.ai</span>
+                    </div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        The AI consultancy that listens first. We build custom solutions that adapt to your business, not the other way around.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="consultation_process.html" class="text-primary-200 hover:text-white transition-smooth">Our Process</a></li>
+                        <li><a href="case_studies.html" class="text-primary-200 hover:text-white transition-smooth">Case Studies</a></li>
+                        <li><a href="about_methodology.html" class="text-primary-200 hover:text-white transition-smooth">About Us</a></li>
+                        <li><a href="ai_readiness_assessment.html" class="text-primary-200 hover:text-white transition-smooth">AI Assessment</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Get Started</h3>
+                    <ul class="space-y-2">
+                        <li><a href="contact_consultation_booking.html" class="text-primary-200 hover:text-white transition-smooth">Book Consultation</a></li>
+                        <li><a href="mailto:hello@clepto.ai" class="text-primary-200 hover:text-white transition-smooth">hello@clepto.ai</a></li>
+                        <li><a href="tel:+18002537866" class="text-primary-200 hover:text-white transition-smooth">1-800-CLEPTO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-12 pt-8 text-center">
+                <p class="text-primary-200">© 2025 Clepto.ai. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        function selectSessionType(type) {
+            const radios = document.querySelectorAll('input[name="sessionType"]');
+            radios.forEach(radio => {
+                if (radio.value === type) {
+                    radio.checked = true;
+                }
+            });
+        }
+
+        function selectTimeSlot(slot) {
+            // Remove previous selections
+            const buttons = document.querySelectorAll('button[onclick^="selectTimeSlot"]');
+            buttons.forEach(btn => {
+                btn.classList.remove('border-accent', 'bg-accent-50');
+                btn.classList.add('border-border');
+            });
+            
+            // Add selection to clicked button
+            event.target.closest('button').classList.remove('border-border');
+            event.target.closest('button').classList.add('border-accent', 'bg-accent-50');
+        }
+
+        function bookConsultation() {
+            // In a real application, this would handle the booking process
+            alert('Thank you! Your consultation has been booked. You will receive a confirmation email shortly with meeting details and a calendar invite.');
+        }
+
+        function openLiveChat() {
+            // In a real application, this would open the live chat widget
+            alert('Live chat feature would open here. For now, please use the phone number or email to contact us.');
+        }
+
+        function toggleFAQ(faqId) {
+            const content = document.getElementById(faqId + '-content');
+            const icon = document.getElementById(faqId + '-icon');
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Readiness Assessment - Clepto AI</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Discover your business's AI readiness with our comprehensive assessment. Get personalized recommendations and actionable insights in just 8-10 minutes." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fcleptoai9255back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background font-serif">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-subtle sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage.html" class="flex items-center">
+                        <svg class="h-8 w-8 text-primary mr-2" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <circle cx="16" cy="12" r="3" fill="white"/>
+                            <path d="M16 16l-4 4h8l-4-4z" fill="white"/>
+                        </svg>
+                        <span class="font-inter font-bold text-xl text-primary">Clepto.ai</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Home</a>
+                        <a href="consultation_process.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Process</a>
+                        <a href="case_studies.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">Case Studies</a>
+                        <a href="about_methodology.html" class="text-text-secondary font-inter font-medium hover:text-accent transition-smooth">About</a>
+                        <a href="ai_readiness_assessment.html" class="text-primary font-inter font-medium hover:text-accent transition-smooth">Assessment</a>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact_consultation_booking.html" class="btn-primary">Book Consultation</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-border">
+                    <a href="homepage.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Home</a>
+                    <a href="consultation_process.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Process</a>
+                    <a href="case_studies.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">Case Studies</a>
+                    <a href="about_methodology.html" class="block px-3 py-2 text-text-secondary font-inter font-medium hover:text-accent">About</a>
+                    <a href="ai_readiness_assessment.html" class="block px-3 py-2 text-primary font-inter font-medium">Assessment</a>
+                    <a href="contact_consultation_booking.html" class="block px-3 py-2 btn-primary text-center mt-4">Book Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8">
+                <div class="inline-flex items-center bg-secondary-50 text-secondary px-4 py-2 rounded-full text-sm font-inter font-medium mb-6">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    Free Assessment • 8-10 Minutes • Instant Results
+                </div>
+                <h1 class="font-inter font-bold text-4xl lg:text-5xl text-primary mb-6 leading-tight">
+                    How AI-Ready Is Your Business?
+                </h1>
+                <p class="text-xl text-text-secondary mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Get a personalized assessment of your business's AI readiness with actionable recommendations tailored to your industry and current processes.
+                </p>
+            </div>
+
+            <!-- Assessment Preview -->
+            <div class="bg-white rounded-2xl shadow-elevated p-8 mb-8">
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-inter font-semibold text-lg text-primary mb-2">Quick Assessment</h3>
+                        <p class="text-text-secondary">Answer 15 strategic questions about your business processes</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-secondary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-inter font-semibold text-lg text-primary mb-2">Instant Scoring</h3>
+                        <p class="text-text-secondary">Get your readiness score with detailed breakdown</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-success-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-inter font-semibold text-lg text-primary mb-2">Custom Recommendations</h3>
+                        <p class="text-text-secondary">Receive tailored next steps and relevant case studies</p>
+                    </div>
+                </div>
+                
+                <button onclick="startAssessment()" class="btn-primary text-lg px-8 py-4">
+                    Start Your Assessment
+                </button>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="flex flex-wrap justify-center items-center gap-6 text-sm text-text-muted">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    No email required to start
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    Completely confidential
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    Used by 500+ businesses
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assessment Tool -->
+    <section id="assessment-container" class="py-20 bg-white hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Progress Bar -->
+            <div class="mb-8">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-sm font-inter font-medium text-text-secondary">Progress</span>
+                    <span id="progress-text" class="text-sm font-inter font-medium text-text-secondary">Question 1 of 15</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div id="progress-bar" class="bg-accent h-2 rounded-full transition-all duration-300" style="width: 6.67%"></div>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                    <span class="text-xs text-text-muted">Estimated time: 8-10 minutes</span>
+                    <span class="text-xs text-text-muted">Time remaining: ~<span id="time-remaining">9</span> min</span>
+                </div>
+            </div>
+
+            <!-- Question Container -->
+            <div id="question-container" class="card-elevated">
+                <!-- Questions will be dynamically loaded here -->
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="flex justify-between mt-8">
+                <button id="prev-btn" onclick="previousQuestion()" class="btn-secondary" disabled>
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                    Previous
+                </button>
+                <button id="next-btn" onclick="nextQuestion()" class="btn-primary" disabled>
+                    Next
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results-container" class="py-20 bg-gradient-to-br from-primary-50 to-accent-50 hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    Your AI Readiness Results
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Based on your responses, here's your personalized assessment
+                </p>
+            </div>
+
+            <!-- Score Display -->
+            <div class="bg-white rounded-2xl shadow-elevated p-8 mb-8">
+                <div class="text-center mb-8">
+                    <div class="relative inline-flex items-center justify-center w-32 h-32 mb-6">
+                        <svg class="w-32 h-32 transform -rotate-90" viewBox="0 0 120 120">
+                            <circle cx="60" cy="60" r="50" stroke="#e2e8f0" stroke-width="8" fill="none"/>
+                            <circle id="score-circle" cx="60" cy="60" r="50" stroke="#4299e1" stroke-width="8" fill="none" stroke-dasharray="314" stroke-dashoffset="314" class="transition-all duration-1000"/>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <span id="score-display" class="font-inter font-bold text-3xl text-primary">0%</span>
+                        </div>
+                    </div>
+                    <h3 id="readiness-level" class="font-inter font-bold text-2xl text-primary mb-2">Calculating...</h3>
+                    <p id="readiness-description" class="text-text-secondary max-w-2xl mx-auto">
+                        Please wait while we analyze your responses...
+                    </p>
+                </div>
+
+                <!-- Category Breakdown -->
+                <div id="category-breakdown" class="grid md:grid-cols-3 gap-6 mb-8">
+                    <!-- Categories will be populated dynamically -->
+                </div>
+
+                <!-- Email Capture for Detailed Report -->
+                <div class="bg-gradient-to-r from-accent-50 to-secondary-50 rounded-lg p-6 text-center">
+                    <h4 class="font-inter font-semibold text-xl text-primary mb-4">
+                        Get Your Detailed Report & Recommendations
+                    </h4>
+                    <p class="text-text-secondary mb-6">
+                        Receive a comprehensive 8-page report with industry-specific recommendations, relevant case studies, and your personalized AI implementation roadmap.
+                    </p>
+                    <form id="email-form" class="max-w-md mx-auto">
+                        <div class="flex gap-4">
+                            <input type="email" id="email-input" placeholder="Enter your business email" class="input-field flex-1" required />
+                            <button type="submit" class="btn-primary whitespace-nowrap">
+                                Get Report
+                            </button>
+                        </div>
+                        <p class="text-xs text-text-muted mt-2">
+                            We'll also send you relevant case studies and AI insights. Unsubscribe anytime.
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Recommendations Preview -->
+            <div id="recommendations-preview" class="grid lg:grid-cols-2 gap-8">
+                <!-- Recommendations will be populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Questions Preview -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    What We'll Assess
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Our assessment covers the key areas that determine AI implementation success
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Sample Question 1 -->
+                <div class="card hover:shadow-elevated transition-smooth">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-accent-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-4m-5 0H3m2 0h3M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 8h1m-1-4h1m4 4h1m-1-4h1"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-inter font-semibold text-lg text-primary mb-2">Current Process Efficiency</h3>
+                            <p class="text-text-secondary mb-4">
+                                "How much time does your team spend on repetitive tasks each week?"
+                            </p>
+                            <div class="space-y-2">
+                                <div class="text-sm text-text-muted">• Less than 5 hours (Highly efficient)</div>
+                                <div class="text-sm text-text-muted">• 5-15 hours (Room for improvement)</div>
+                                <div class="text-sm text-text-muted">• 15-30 hours (Significant opportunity)</div>
+                                <div class="text-sm text-text-muted">• More than 30 hours (High AI potential)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Question 2 -->
+                <div class="card hover:shadow-elevated transition-smooth">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-secondary-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-inter font-semibold text-lg text-primary mb-2">Data Infrastructure</h3>
+                            <p class="text-text-secondary mb-4">
+                                "How would you describe your current data organization?"
+                            </p>
+                            <div class="space-y-2">
+                                <div class="text-sm text-text-muted">• Centralized and well-organized</div>
+                                <div class="text-sm text-text-muted">• Mostly organized with some gaps</div>
+                                <div class="text-sm text-text-muted">• Scattered across multiple systems</div>
+                                <div class="text-sm text-text-muted">• Largely unorganized or manual</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Question 3 -->
+                <div class="card hover:shadow-elevated transition-smooth">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-success-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-inter font-semibold text-lg text-primary mb-2">Team Readiness</h3>
+                            <p class="text-text-secondary mb-4">
+                                "How comfortable is your team with adopting new technology?"
+                            </p>
+                            <div class="space-y-2">
+                                <div class="text-sm text-text-muted">• Very comfortable, early adopters</div>
+                                <div class="text-sm text-text-muted">• Generally positive with proper training</div>
+                                <div class="text-sm text-text-muted">• Cautious but willing to learn</div>
+                                <div class="text-sm text-text-muted">• Resistant to change</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Question 4 -->
+                <div class="card hover:shadow-elevated transition-smooth">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-warning-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-inter font-semibold text-lg text-primary mb-2">Budget & Resources</h3>
+                            <p class="text-text-secondary mb-4">
+                                "What's your typical approach to technology investments?"
+                            </p>
+                            <div class="space-y-2">
+                                <div class="text-sm text-text-muted">• Strategic, planned investments</div>
+                                <div class="text-sm text-text-muted">• Careful evaluation with clear ROI</div>
+                                <div class="text-sm text-text-muted">• Conservative, proven solutions only</div>
+                                <div class="text-sm text-text-muted">• Minimal technology spending</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button onclick="startAssessment()" class="btn-primary text-lg px-8 py-4">
+                    Take the Full Assessment
+                </button>
+                <p class="text-sm text-text-muted mt-4">
+                    15 questions • 8-10 minutes • Instant results
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                    Join 500+ Businesses Who've Discovered Their AI Potential
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    See what others learned from their assessment
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-elevated">
+                    <div class="flex items-start space-x-4 mb-6">
+                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sarah Chen" class="w-16 h-16 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-inter font-semibold text-lg text-primary">Sarah Chen</h4>
+                            <p class="text-text-muted">Manufacturing Director, TechParts Inc.</p>
+                            <div class="flex items-center mt-1">
+                                <span class="bg-success-100 text-success px-2 py-1 rounded text-sm font-inter font-medium">
+                                    Readiness Score: 78%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4">
+                        "The assessment opened my eyes to opportunities I hadn't considered. The personalized recommendations were spot-on for our manufacturing processes. We implemented their suggestions and saw immediate improvements."
+                    </p>
+                    <div class="flex items-center text-sm text-text-muted">
+                        <svg class="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        Implemented AI solution • 40% efficiency increase
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-elevated">
+                    <div class="flex items-start space-x-4 mb-6">
+                        <img src="https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg" alt="Marcus Rodriguez" class="w-16 h-16 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-inter font-semibold text-lg text-primary">Marcus Rodriguez</h4>
+                            <p class="text-text-muted">Operations Manager, Swift Logistics</p>
+                            <div class="flex items-center mt-1">
+                                <span class="bg-warning-100 text-warning px-2 py-1 rounded text-sm font-inter font-medium">
+                                    Readiness Score: 65%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4">
+                        "I thought we weren't ready for AI, but the assessment showed we had more foundation than I realized. The step-by-step preparation plan helped us get ready for implementation in just 3 months."
+                    </p>
+                    <div class="flex items-center text-sm text-text-muted">
+                        <svg class="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        Currently in preparation phase • On track for Q2 implementation
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid md:grid-cols-3 gap-8 mt-16">
+                <div class="text-center">
+                    <div class="font-inter font-bold text-3xl text-primary mb-2">500+</div>
+                    <p class="text-text-secondary">Assessments completed</p>
+                </div>
+                <div class="text-center">
+                    <div class="font-inter font-bold text-3xl text-primary mb-2">73%</div>
+                    <p class="text-text-secondary">Average readiness score</p>
+                </div>
+                <div class="text-center">
+                    <div class="font-inter font-bold text-3xl text-primary mb-2">89%</div>
+                    <p class="text-text-secondary">Found recommendations helpful</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-inter font-bold text-3xl lg:text-4xl text-primary mb-4">
+                Ready to Discover Your AI Potential?
+            </h2>
+            <p class="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
+                Take the assessment now and get your personalized roadmap to AI success. No commitment required.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <button onclick="startAssessment()" class="btn-primary text-lg px-8 py-4">
+                    Start Assessment Now
+                </button>
+                <a href="contact_consultation_booking.html" class="btn-secondary text-lg px-8 py-4">
+                    Book Consultation Instead
+                </a>
+            </div>
+
+            <div class="flex flex-wrap justify-center items-center gap-6 text-sm text-text-muted">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    100% Confidential
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    Instant Results
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    No Sales Pressure
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <svg class="h-8 w-8 text-secondary mr-2" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <circle cx="16" cy="12" r="3" fill="white"/>
+                            <path d="M16 16l-4 4h8l-4-4z" fill="white"/>
+                        </svg>
+                        <span class="font-inter font-bold text-xl">Clepto.ai</span>
+                    </div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        The AI consultancy that listens first. We build custom solutions that adapt to your business, not the other way around.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="consultation_process.html" class="text-primary-200 hover:text-white transition-smooth">Our Process</a></li>
+                        <li><a href="case_studies.html" class="text-primary-200 hover:text-white transition-smooth">Case Studies</a></li>
+                        <li><a href="about_methodology.html" class="text-primary-200 hover:text-white transition-smooth">About Us</a></li>
+                        <li><a href="ai_readiness_assessment.html" class="text-primary-200 hover:text-white transition-smooth">AI Assessment</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Get Started</h3>
+                    <ul class="space-y-2">
+                        <li><a href="contact_consultation_booking.html" class="text-primary-200 hover:text-white transition-smooth">Book Consultation</a></li>
+                        <li><a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">hello@clepto.ai</a></li>
+                        <li><a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-smooth">1-800-CLEPTO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-12 pt-8 text-center">
+                <p class="text-primary-200">© 2025 Clepto.ai. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Assessment Data
+        const assessmentQuestions = [
+            {
+                id: 1,
+                category: "Business Context",
+                question: "What's the size of your company?",
+                options: [
+                    { text: "1-10 employees (Startup/Small business)", value: 2, context: "Perfect size for agile AI implementation" },
+                    { text: "11-50 employees (Growing business)", value: 3, context: "Ideal scale for custom AI solutions" },
+                    { text: "51-200 employees (Established SME)", value: 4, context: "Great foundation for comprehensive AI strategy" },
+                    { text: "200+ employees (Large organization)", value: 3, context: "Complex but high-impact AI opportunities" }
+                ]
+            },
+            {
+                id: 2,
+                category: "Process Efficiency",
+                question: "How much time does your team spend on repetitive tasks each week?",
+                options: [
+                    { text: "Less than 5 hours", value: 1, context: "Already highly efficient" },
+                    { text: "5-15 hours", value: 2, context: "Good automation opportunities" },
+                    { text: "15-30 hours", value: 3, context: "Significant efficiency gains possible" },
+                    { text: "More than 30 hours", value: 4, context: "High potential for AI transformation" }
+                ]
+            },
+            {
+                id: 3,
+                category: "Data Infrastructure",
+                question: "How would you describe your current data organization?",
+                options: [
+                    { text: "Centralized and well-organized", value: 4, context: "Excellent foundation for AI" },
+                    { text: "Mostly organized with some gaps", value: 3, context: "Good starting point" },
+                    { text: "Scattered across multiple systems", value: 2, context: "Integration opportunities exist" },
+                    { text: "Largely unorganized or manual", value: 1, context: "Data preparation needed first" }
+                ]
+            },
+            {
+                id: 4,
+                category: "Team Readiness",
+                question: "How comfortable is your team with adopting new technology?",
+                options: [
+                    { text: "Very comfortable, early adopters", value: 4, context: "Ideal for AI implementation" },
+                    { text: "Generally positive with proper training", value: 3, context: "Good adoption potential" },
+                    { text: "Cautious but willing to learn", value: 2, context: "Change management important" },
+                    { text: "Resistant to change", value: 1, context: "Cultural preparation needed" }
+                ]
+            },
+            {
+                id: 5,
+                category: "Budget & Resources",
+                question: "What's your typical approach to technology investments?",
+                options: [
+                    { text: "Strategic, planned investments", value: 4, context: "Perfect for AI planning" },
+                    { text: "Careful evaluation with clear ROI", value: 3, context: "AI ROI can be demonstrated" },
+                    { text: "Conservative, proven solutions only", value: 2, context: "Pilot approach recommended" },
+                    { text: "Minimal technology spending", value: 1, context: "Start with high-impact, low-cost solutions" }
+                ]
+            },
+            {
+                id: 6,
+                category: "Current Technology",
+                question: "Which best describes your current software ecosystem?",
+                options: [
+                    { text: "Modern, integrated cloud-based systems", value: 4, context: "Ready for AI integration" },
+                    { text: "Mix of modern and legacy systems", value: 3, context: "Gradual AI integration possible" },
+                    { text: "Mostly legacy systems", value: 2, context: "Modernization may be needed" },
+                    { text: "Primarily manual processes", value: 1, context: "Digital foundation needed first" }
+                ]
+            },
+            {
+                id: 7,
+                category: "Decision Making",
+                question: "How are major business decisions typically made?",
+                options: [
+                    { text: "Data-driven with analytics", value: 4, context: "AI can enhance decision-making" },
+                    { text: "Combination of data and intuition", value: 3, context: "AI can provide better insights" },
+                    { text: "Mostly experience-based", value: 2, context: "AI can augment expertise" },
+                    { text: "Intuition and gut feeling", value: 1, context: "Data foundation needed" }
+                ]
+            },
+            {
+                id: 8,
+                category: "Customer Interaction",
+                question: "How do you currently handle customer service and support?",
+                options: [
+                    { text: "Automated systems with human oversight", value: 4, context: "Ready for AI enhancement" },
+                    { text: "Structured processes with some automation", value: 3, context: "Good automation foundation" },
+                    { text: "Mostly manual with basic tools", value: 2, context: "Automation opportunities exist" },
+                    { text: "Entirely manual processes", value: 1, context: "High potential for AI impact" }
+                ]
+            },
+            {
+                id: 9,
+                category: "Growth Challenges",
+                question: "What's your biggest operational challenge right now?",
+                options: [
+                    { text: "Scaling processes efficiently", value: 4, context: "AI excels at scaling solutions" },
+                    { text: "Managing increasing data volume", value: 4, context: "Perfect use case for AI" },
+                    { text: "Maintaining quality while growing", value: 3, context: "AI can ensure consistency" },
+                    { text: "Finding and retaining talent", value: 2, context: "AI can augment team capabilities" }
+                ]
+            },
+            {
+                id: 10,
+                category: "Competitive Advantage",
+                question: "How important is staying ahead of competitors through technology?",
+                options: [
+                    { text: "Critical to our strategy", value: 4, context: "AI provides competitive edge" },
+                    { text: "Important for long-term success", value: 3, context: "AI adoption timing is key" },
+                    { text: "Somewhat important", value: 2, context: "AI can differentiate your business" },
+                    { text: "Not a priority", value: 1, context: "Focus on operational efficiency first" }
+                ]
+            },
+            {
+                id: 11,
+                category: "Implementation Timeline",
+                question: "What's your preferred timeline for implementing new solutions?",
+                options: [
+                    { text: "As soon as possible", value: 3, context: "Rapid deployment possible" },
+                    { text: "Within 3-6 months", value: 4, context: "Ideal implementation timeline" },
+                    { text: "6-12 months", value: 3, context: "Thorough planning approach" },
+                    { text: "More than a year", value: 2, context: "Long-term strategic planning" }
+                ]
+            },
+            {
+                id: 12,
+                category: "Success Metrics",
+                question: "How do you typically measure business success?",
+                options: [
+                    { text: "Detailed KPIs and metrics", value: 4, context: "AI impact easily measurable" },
+                    { text: "Key financial indicators", value: 3, context: "AI ROI clearly trackable" },
+                    { text: "General business performance", value: 2, context: "AI benefits will be visible" },
+                    { text: "Intuitive assessment", value: 1, context: "Metrics framework needed" }
+                ]
+            },
+            {
+                id: 13,
+                category: "Industry Context",
+                question: "Which industry best describes your business?",
+                options: [
+                    { text: "Manufacturing/Production", value: 4, context: "High AI automation potential" },
+                    { text: "Professional Services", value: 3, context: "AI can enhance service delivery" },
+                    { text: "Retail/E-commerce", value: 4, context: "Excellent AI use cases" },
+                    { text: "Healthcare/Medical", value: 3, context: "AI improving patient outcomes" },
+                    { text: "Financial Services", value: 4, context: "AI transforming finance" },
+                    { text: "Other", value: 2, context: "AI applications exist in all industries" }
+                ]
+            },
+            {
+                id: 14,
+                category: "Risk Tolerance",
+                question: "How would you describe your approach to business risk?",
+                options: [
+                    { text: "Calculated risks for competitive advantage", value: 4, context: "AI innovation opportunity" },
+                    { text: "Moderate risk with proven returns", value: 3, context: "AI has proven ROI" },
+                    { text: "Conservative, prefer proven solutions", value: 2, context: "Start with low-risk AI applications" },
+                    { text: "Very risk-averse", value: 1, context: "Pilot programs recommended" }
+                ]
+            },
+            {
+                id: 15,
+                category: "Future Vision",
+                question: "Where do you see your business in 3 years?",
+                options: [
+                    { text: "Significantly larger and more automated", value: 4, context: "AI essential for scaling" },
+                    { text: "Steady growth with improved efficiency", value: 3, context: "AI supports sustainable growth" },
+                    { text: "Stable with better processes", value: 2, context: "AI improves operations" },
+                    { text: "Maintaining current operations", value: 1, context: "AI can optimize existing processes" }
+                ]
+            }
+        ];
+
+        let currentQuestion = 0;
+        let answers = {};
+        let startTime = Date.now();
+
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        function startAssessment() {
+            document.getElementById('assessment-container').classList.remove('hidden');
+            document.getElementById('assessment-container').scrollIntoView({ behavior: 'smooth' });
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            const question = assessmentQuestions[currentQuestion];
+            const container = document.getElementById('question-container');
+            
+            container.innerHTML = `
+                <div class="mb-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-sm font-inter font-medium text-accent bg-accent-50 px-3 py-1 rounded-full">
+                            ${question.category}
+                        </span>
+                        <span class="text-sm text-text-muted">Question ${currentQuestion + 1} of ${assessmentQuestions.length}</span>
+                    </div>
+                    <h3 class="font-inter font-bold text-2xl text-primary mb-6">${question.question}</h3>
+                </div>
+                
+                <div class="space-y-3">
+                    ${question.options.map((option, index) => `
+                        <label class="block cursor-pointer">
+                            <input type="radio" name="question-${question.id}" value="${option.value}" 
+                                   class="sr-only" onchange="selectAnswer(${option.value}, '${option.context}')">
+                            <div class="option-card p-4 border-2 border-border rounded-lg transition-all duration-300 hover:border-accent-300 hover:bg-accent-50">
+                                <div class="flex items-start">
+                                    <div class="option-radio w-5 h-5 border-2 border-gray-300 rounded-full mr-4 mt-0.5 flex-shrink-0"></div>
+                                    <div>
+                                        <div class="font-inter font-medium text-primary mb-1">${option.text}</div>
+                                        <div class="text-sm text-text-muted">${option.context}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    `).join('')}
+                </div>
+            `;
+
+            // Update progress
+            updateProgress();
+            
+            // Update navigation buttons
+            document.getElementById('prev-btn').disabled = currentQuestion === 0;
+            document.getElementById('next-btn').disabled = true;
+            
+            // Restore previous answer if exists
+            if (answers[question.id]) {
+                const radio = container.querySelector(`input[value="${answers[question.id]}"]`);
+                if (radio) {
+                    radio.checked = true;
+                    selectAnswer(answers[question.id], '');
+                }
+            }
+        }
+
+        function selectAnswer(value, context) {
+            const question = assessmentQuestions[currentQuestion];
+            answers[question.id] = value;
+            
+            // Update UI
+            const container = document.getElementById('question-container');
+            const options = container.querySelectorAll('.option-card');
+            const radios = container.querySelectorAll('.option-radio');
+            
+            options.forEach((option, index) => {
+                option.classList.remove('border-accent', 'bg-accent-50');
+                option.classList.add('border-border');
+                radios[index].classList.remove('bg-accent', 'border-accent');
+                radios[index].classList.add('border-gray-300');
+            });
+            
+            const selectedOption = container.querySelector(`input[value="${value}"]`).closest('.option-card');
+            const selectedRadio = selectedOption.querySelector('.option-radio');
+            selectedOption.classList.remove('border-border');
+            selectedOption.classList.add('border-accent', 'bg-accent-50');
+            selectedRadio.classList.remove('border-gray-300');
+            selectedRadio.classList.add('bg-accent', 'border-accent');
+            
+            // Enable next button
+            document.getElementById('next-btn').disabled = false;
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < assessmentQuestions.length - 1) {
+                currentQuestion++;
+                loadQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                loadQuestion();
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestion + 1) / assessmentQuestions.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+            document.getElementById('progress-text').textContent = `Question ${currentQuestion + 1} of ${assessmentQuestions.length}`;
+            
+            const timeRemaining = Math.max(1, 10 - Math.floor((Date.now() - startTime) / 60000));
+            document.getElementById('time-remaining').textContent = timeRemaining;
+        }
+
+        function calculateScore() {
+            const totalQuestions = assessmentQuestions.length;
+            const maxScore = totalQuestions * 4;
+            let totalScore = 0;
+            
+            const categories = {};
+            
+            assessmentQuestions.forEach(question => {
+                const answer = answers[question.id] || 0;
+                totalScore += answer;
+                
+                if (!categories[question.category]) {
+                    categories[question.category] = { score: 0, total: 0 };
+                }
+                categories[question.category].score += answer;
+                categories[question.category].total += 4;
+            });
+            
+            const overallScore = Math.round((totalScore / maxScore) * 100);
+            
+            return { overallScore, categories, totalScore, maxScore };
+        }
+
+        function getReadinessLevel(score) {
+            if (score >= 80) {
+                return {
+                    level: "Ready to Implement",
+                    description: "Your business shows excellent AI readiness across all key areas. You have the foundation, team, and processes needed for successful AI implementation.",
+                    color: "success",
+                    nextSteps: ["Schedule implementation consultation", "Define specific AI use cases", "Begin pilot program planning"]
+                };
+            } else if (score >= 60) {
+                return {
+                    level: "Needs Preparation",
+                    description: "You have a solid foundation but some areas need strengthening before AI implementation. With focused preparation, you'll be ready for AI success.",
+                    color: "warning",
+                    nextSteps: ["Address identified gaps", "Strengthen data infrastructure", "Prepare team for change", "Plan phased implementation"]
+                };
+            } else {
+                return {
+                    level: "Early Exploration",
+                    description: "You're in the early stages of AI readiness. Focus on building foundational capabilities and exploring AI opportunities that align with your current state.",
+                    color: "accent",
+                    nextSteps: ["Build data collection processes", "Invest in team training", "Start with simple automation", "Develop AI strategy"]
+                };
+            }
+        }
+
+        function showResults() {
+            document.getElementById('assessment-container').classList.add('hidden');
+            document.getElementById('results-container').classList.remove('hidden');
+            document.getElementById('results-container').scrollIntoView({ behavior: 'smooth' });
+            
+            const { overallScore, categories } = calculateScore();
+            const readiness = getReadinessLevel(overallScore);
+            
+            // Animate score
+            setTimeout(() => {
+                animateScore(overallScore);
+                displayReadinessLevel(readiness);
+                displayCategoryBreakdown(categories);
+                displayRecommendations(readiness, overallScore);
+            }, 500);
+        }
+
+        function animateScore(targetScore) {
+            const scoreDisplay = document.getElementById('score-display');
+            const scoreCircle = document.getElementById('score-circle');
+            const circumference = 314; // 2 * π * 50
+            
+            let currentScore = 0;
+            const increment = targetScore / 50;
+            
+            const timer = setInterval(() => {
+                currentScore += increment;
+                if (currentScore >= targetScore) {
+                    currentScore = targetScore;
+                    clearInterval(timer);
+                }
+                
+                scoreDisplay.textContent = `${Math.round(currentScore)}%`;
+                const offset = circumference - (currentScore / 100) * circumference;
+                scoreCircle.style.strokeDashoffset = offset;
+            }, 40);
+        }
+
+        function displayReadinessLevel(readiness) {
+            document.getElementById('readiness-level').textContent = readiness.level;
+            document.getElementById('readiness-description').textContent = readiness.description;
+        }
+
+        function displayCategoryBreakdown(categories) {
+            const container = document.getElementById('category-breakdown');
+            
+            container.innerHTML = Object.entries(categories).map(([category, data]) => {
+                const percentage = Math.round((data.score / data.total) * 100);
+                const colorClass = percentage >= 80 ? 'success' : percentage >= 60 ? 'warning' : 'accent';
+                
+                return `
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-${colorClass}-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="font-inter font-bold text-xl text-${colorClass}">${percentage}%</span>
+                        </div>
+                        <h4 class="font-inter font-semibold text-lg text-primary mb-2">${category}</h4>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-${colorClass} h-2 rounded-full transition-all duration-1000" style="width: ${percentage}%"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function displayRecommendations(readiness, score) {
+            const container = document.getElementById('recommendations-preview');
+            
+            const recommendations = [
+                {
+                    title: "Immediate Next Steps",
+                    items: readiness.nextSteps,
+                    icon: "M13 10V3L4 14h7v7l9-11h-7z"
+                },
+                {
+                    title: "Relevant Case Studies",
+                    items: [
+                        "Manufacturing efficiency improvement (40% time savings)",
+                        "Customer service automation (60% faster response)",
+                        "Data-driven decision making (25% better outcomes)"
+                    ],
+                    icon: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                }
+            ];
+            
+            container.innerHTML = recommendations.map(rec => `
+                <div class="card-elevated">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-accent-50 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${rec.icon}"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-inter font-bold text-xl text-primary">${rec.title}</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        ${rec.items.map(item => `
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-success mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                <span class="text-text-secondary">${item}</span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `).join('');
+        }
+
+        // Email form handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const emailForm = document.getElementById('email-form');
+            if (emailForm) {
+                emailForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = document.getElementById('email-input').value;
+                    
+                    // Simulate form submission
+                    const button = e.target.querySelector('button');
+                    const originalText = button.textContent;
+                    button.textContent = 'Sending...';
+                    button.disabled = true;
+                    
+                    setTimeout(() => {
+                        button.textContent = 'Report Sent!';
+                        button.classList.remove('btn-primary');
+                        button.classList.add('bg-success', 'text-white');
+                        
+                        // Show success message
+                        const successMessage = document.createElement('div');
+                        successMessage.className = 'mt-4 p-4 bg-success-50 border border-success-200 rounded-lg';
+                        successMessage.innerHTML = `
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                <span class="text-success font-inter font-medium">
+                                    Your detailed report has been sent to ${email}. Check your inbox in a few minutes!
+                                </span>
+                            </div>
+                        `;
+                        emailForm.appendChild(successMessage);
+                    }, 2000);
+                });
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
